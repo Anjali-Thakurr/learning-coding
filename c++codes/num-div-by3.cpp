@@ -1,4 +1,4 @@
-// nested for loop
+// Sum of n numbers divisible by 3
 #include <iostream> 
 using namespace std; 
 
