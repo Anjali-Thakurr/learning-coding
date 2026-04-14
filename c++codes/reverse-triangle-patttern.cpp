@@ -18,5 +18,7 @@ cin >> a ;
       cout << endl ;
     }
       
+
+    
   return 0;
   }
