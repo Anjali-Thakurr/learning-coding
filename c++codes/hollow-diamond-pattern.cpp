@@ -1,4 +1,4 @@
-// Butterfly Pattern
+// Hollow Diamond Pattern
 #include <iostream> 
 using namespace std; 
 
