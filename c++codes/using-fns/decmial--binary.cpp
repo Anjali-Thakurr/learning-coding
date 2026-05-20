@@ -1,18 +1,23 @@
 //Decimal to binary conversion
 #include <iostream> 
 using namespace std; 
-
-int main(){
- int sum=0,p=1,n ;
-
-  cout << " enter a number " ;
-  cin >> n; 
- //convert
-while(n!=0){
-    int r=n%2;
+//function
+int dectobi(int x){
+    int sum=0,p=1;
+while(x!=0){
+    int r=x%2;
     sum+=r*p;
     p=p*10;
-    n=n/2;
+    x=x/2;
 }
-cout << sum;
+return sum;
+}
+
+int main(){
+ int n ;
+
+  cout << " enter a decimal number " ;
+  cin >> n; 
+ 
+cout << dectobi(n) ;
 }
